@@ -1,0 +1,119 @@
+body {
+    background-color: #474777;
+    margin: 0px;
+}
+
+nav {
+    background-color: #24243c;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 14px;
+}
+footer {
+    background-color: #24243c;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 14px;
+}
+
+nav a, footer a {
+    color: #e6e636;
+    text-decoration: underline;
+}
+nav a:visited, footer a:visited {
+    color: #979728;
+}
+nav a:hover, footer a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #e6a636;
+    text-decoration: none;
+}
+a:visited {
+    color: #976d28;
+}
+a:hover {
+    text-decoration: underline; 
+}
+
+.intro {
+    background-color: #474777;
+    padding: 8px;
+}
+.main {
+    background-color: #474777;
+    padding: 8px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+hr {
+    border-color: #e6a636;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    color: #a0a0cb;
+    display: flex;
+    justify-content: center;
+}
+h2, h3, p {
+    display: flex;
+    justify-content: center;
+}
+
+h2, h3, p, ul, dl {
+    font-family: 'Signika Negative', sans-serif;
+    color: #a0a0cb;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+input, textarea {
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #a0a0cb;
+    color: #474777;
+}
+.three-col {
+    display: flex;
+    justify-content: space-evenly;
+}
+.one-col {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 25vw;
+    background-color: #24243c;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px #e6a63680;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 2px 3px #e6e63680;
+
+}
+
+.card h3, .card ul, .card dl {
+    color: #a0a0cb;
+}
+
+.languages, .experience, .skills {
+    display: flex;
+    justify-content: space-around;
+
+}

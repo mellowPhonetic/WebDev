@@ -1,0 +1,28 @@
+body {
+    background-color: #242444;
+}
+div {
+    width: 100px;
+    height: 100px;
+}
+div.top {
+    background-color: #474777;
+    border: 10px solid;
+    padding: 20px;
+    border-color: #a0a0cb;
+    color: #a0a0cb;
+}
+div.middle {
+    background-color: #e6e636;
+    border: 20px solid;
+    border-color: #e6a636;
+    color: #e6a636;
+    margin-left: 160px;
+}
+div.bottom {
+    background-color: #a0a0cb;
+    border: 10px solid;
+    border-color: #474777;
+    color: #474777;
+    margin-left: 300px;
+}
