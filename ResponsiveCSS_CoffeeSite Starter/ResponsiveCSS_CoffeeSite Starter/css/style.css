@@ -1,0 +1,132 @@
+body {
+  color: #3c3c3c;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+/*************   Create the menubar using flexbox. *********************************/
+nav {
+  width: 100vw;
+  background-color: #3D3C42;
+  color: white;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 15px;
+
+}
+
+.nav-links {
+  margin: 0;
+  list-style: none;
+  padding: 15px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+
+.nav-item a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+.nav-item:hover {
+  background-color: #202020;
+}
+.nav-item:hover a {
+
+}
+/******* Create banner section with background image and headings on top *****/
+.banner {
+  margin-top: 0;
+  background-image:url("../images/home_banner-x489.png"); 
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 130px;
+}
+.banner h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 3px 2px #474747;
+}
+.banner p {
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 3px 3px 2px #474747;
+}
+h2 {
+  margin: 0;
+  padding: 35px 0 5px 0;
+}
+.content-one p {
+
+}
+.content-one h4 {
+
+}
+.content-two h2 {
+
+}
+
+/**********       Create 3 column layout         ************/
+.triple-col {
+}
+
+.content-two a:link {
+  text-decoration: none;
+  color: darkred;
+}
+.content-two a:hover {
+  color: brown;
+}
+.tint {
+  background-color: #EEEEEE;
+}
+.item-col {
+  padding: 50px;
+}
+/************* Create 4 column layout    ************************/
+.quad-col {
+}
+.item-coffee img {
+
+}
+.item-coffee {
+  border-radius: 4px;
+  padding: .5em;
+}
+.content-three img {
+
+}
+.button {
+  background: rgb(245, 222, 19);
+  padding: 12px 40px;
+  width: 125px;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+footer {
+  padding: 25px 0;
+}
+
+/**************** create a verticle layout for mobile devices (smaller than 600px ).    *********/
+@media all and (max-width: 600px) {
+  .triple-col {
+  
+  }
+  .quad-col {
+  }
+  nav {
+  }
+  .nav-links {
+  }
+}
